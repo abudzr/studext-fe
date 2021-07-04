@@ -1,38 +1,151 @@
-.App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.not-found {
+  height: 100vh;
   display: flex;
-  flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  flex-direction: column;
 }
 
-.App-link {
-  color: #61dafb;
+.rounded-sm {
+  border-radius: 0.8rem;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+.rounded-md {
+  border-radius: 20px;
+}
+
+.rounded-lg {
+  border-radius: 1.2rem;
+}
+
+.rounded-xl {
+  border-radius: 2rem;
+}
+
+.show {
+  display: block !important;
+}
+
+.hide {
+  display: none !important;
+}
+
+.navbarMobile {
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  width: 350px;
+  height: 100vh;
+  background: white;
+  transition: all ease-in-out 0.3s;
+  position: fixed;
+  top: 0;
+  z-index: 99999;
+}
+
+.navbarMobile-show {
+  right: 0;
+}
+
+.navbarMobile-hide {
+  right: -100%;
+}
+
+@media (max-width: 576px) {
+  .show-sm {
+    display: block !important;
   }
-  to {
-    transform: rotate(360deg);
+
+  .hide-sm {
+    display: none;
+  }
+
+  .authLayout {
+    /* min-height: 100vh; */
+  }
+
+  .h-100vh-sm {
+    height: 100vh;
+  }
+
+  .w-100-sm {
+    width: 100%;
+  }
+
+}
+
+
+@media (min-width: 576px) {
+  .show-sm {
+    display: block !important;
+  }
+
+  .hide-sm {
+    display: none;
+  }
+
+  .h-100vh-sm {
+    height: 100vh;
+  }
+
+  .w-100-sm {
+    width: 100%;
+  }
+}
+
+
+@media (min-width: 768px) {
+  .show-md {
+    display: block !important;
+  }
+
+  .hide-md {
+    display: none;
+  }
+
+  .rounded-xl-md {
+    border-radius: 2rem;
+  }
+
+  .h-100vh-sm {
+    height: auto;
+  }
+}
+
+@media (min-width: 992px) {
+  .show-lg {
+    display: block !important;
+  }
+
+  .hide-lg {
+    display: none;
+  }
+
+  .rounded-xl-lg {
+    border-radius: 2rem;
+  }
+
+  .w-40-lg {
+    width: 40%;
+  }
+
+  .w-50-lg {
+    width: 50%;
+  }
+
+  .w-60-lg {
+    width: 60%;
+  }
+}
+
+.text-table-responsive {
+  max-width: 200px;
+}
+
+@media (min-width: 1200px) {
+  .show-xl {
+    display: block !important;
+  }
+
+  .hide-xl {
+    display: none;
   }
 }
