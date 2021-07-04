@@ -1,8 +1,101 @@
 .course {
     padding: 1rem 2rem;
     width: 100%;
-    height: 228px;
+    height: 250px;
     background: #FFFFFF;
     box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.1);
     border-radius: 24px;
+}
+
+.course h1 {
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 22px;
+    letter-spacing: 0.5px;
+    color: #333333;
+}
+
+.course h2 {
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 18px;
+    letter-spacing: 0.5px;
+    color: #333333;
+}
+
+.course h4 {
+
+    margin-top: 0;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 18px;
+    letter-spacing: 0.5px;
+    color: #53BAC1;
+}
+
+.course h5 {
+
+    margin-top: 1px;
+    margin-left: 5px;
+    font-size: 12px;
+    line-height: 15px;
+    letter-spacing: 0.5px;
+    color: #333333;
+}
+
+.course span {
+    font-size: 16px;
+    color: #F7C200;
+}
+
+.course i {
+    font-size: 19px;
+    color: #ADADAD;
+}
+
+.course p {
+    margin-left: 5px;
+    font-size: 10px;
+    line-height: 13px;
+    letter-spacing: 0.5px;
+    color: #333333;
+}
+
+.card-course {
+    margin-right: 20px;
+    padding: 1rem;
+    height: max-content;
+    width: 296px;
+    border-radius: 24px;
+    box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.1);
+    background: #FFFFFF;
+}
+
+.image-course {
+    margin-right: 50px;
+}
+
+.date-course {
+    margin-top: 10px;
+    padding: 2.5px 8px;
+    width: 132px;
+    height: 18px;
+    background: #FBE6EB;
+    border-radius: 9px;
+
+    /* font */
+    font-size: 10px;
+    line-height: 13px;
+    letter-spacing: 0.5px;
+    color: #DB0038;
+}
+
+.course-overflow {
+    overflow-y: auto;
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+}
+
+.course-overflow::-webkit-scrollbar {
+    display: none;
 }

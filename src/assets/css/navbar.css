@@ -43,22 +43,32 @@
     }
 
     .input-search {
-        margin-left: 0px;
-        width: 134px;
+        margin-left: 5px;
+        width: 100%;
     }
 
     .input-search input {
         margin-left: 0px;
-        width: 80px;
+        width: max-content;
     }
 }
 
-@media (min-width: 576px) and (max-width:767px) {
+@media (min-width: 576px) and (max-width:768px) {
     .square {
         width: 100vw;
     }
 
     .hide-mobile {
         display: none !important;
+    }
+
+    .input-search {
+        margin-left: 0px;
+        width: 100%;
+    }
+
+    .input-search input {
+        margin-left: 0px;
+        width: max-content;
     }
 }
