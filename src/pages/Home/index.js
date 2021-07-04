@@ -1,10 +1,24 @@
 import React from 'react'
-import { Navbar } from '../../components'
+import { Course, Navbar, Rating, Statistic, Story } from '../../components'
 
 function index() {
     return (
         <>
-            <Navbar />
+            <div className="dashboard">
+                <Navbar />
+                <div className="container-fluid">
+                    <div className="row">
+                        <div className="col-lg-8 col-12">
+                            <Story />
+                            <Statistic />
+                        </div>
+                        <div className="col-lg-4 col-12">
+                            <Rating />
+                        </div>
+                    </div>
+                    <Course />
+                </div>
+            </div>
         </>
     )
 }
