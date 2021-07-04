@@ -17,10 +17,19 @@
 
 .story .circle {
     padding: 4px 4px;
+    margin-right: 16px;
     width: 60px;
     height: 60px;
     background: linear-gradient(rgba(0, 198, 251, 1), rgba(0, 91, 234, 1));
     border-radius: 100%;
+}
+
+.story p {
+    margin-top: 5px;
+    font-size: 10px;
+    line-height: 13px;
+    letter-spacing: 0.5px;
+    color: #333333;
 }
 
 .story-overflow {

@@ -10,11 +10,11 @@ function Story() {
                 {Array.from(Array(13).keys()).map((data, index) => {
                     return (
                         <>
-                            <div key={`story-${index}`}>
+                            <div key={`story-${index}`} >
                                 <div className="circle">
                                     <img src={story} alt="story" />
                                 </div>
-                                <p className="d-inline-block text-truncate" style={{ maxWidth: 70 }}>Marilyn Ghifari</p>
+                                <p className="d-inline-block text-truncate" style={{ maxWidth: 60 }}>Marilyn Ghifari</p>
                             </div>
                         </>
                     )
