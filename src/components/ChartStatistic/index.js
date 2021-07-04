@@ -19,12 +19,9 @@ function Statistic() {
             <div className="d-flex justify-content-between">
                 <h1>Statistic</h1>
                 <div className="dropdown">
-                    <button className="btn btn-month dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+                    <button className="btn btn-month dropdown-toggle" type="button" >
                         Month
                     </button>
-                    {/* <ul className="dropdown-menu" aria-labelledby="dropdownMenuButton1">
-                        <li><a className="dropdown-item" to="#" />Action</li>
-                    </ul> */}
                 </div>
             </div>
             <ResponsiveContainer width="100%" height="90%">
